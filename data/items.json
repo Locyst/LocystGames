@@ -1,0 +1,20 @@
+{
+    "Health Potion": {
+        "type": "consumable",
+        "effect": "healing",
+        "value": 20
+    },
+    "Instant Heal": {
+        "type": "consumable",
+        "effect": "healing",
+        "value": 50
+    },
+    "Sword": {
+        "type": "weapon",
+        "damage": 15
+    },
+    "Armor": {
+        "type": "armor",
+        "defense": 10
+    }
+}
