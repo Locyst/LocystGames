@@ -1,6 +1,6 @@
-# LocystBridge
+# LocystGames
 
-LocystBridge is a Python library that provides functionalities for managing variables and their values. It allows users to create, edit, delete, and retrieve variables with ease, making it convenient to handle variable operations across multiple files.
+LocystGames is a Python library that helps ease the game development process. It allows users to create, edit, delete, and retrieve variables with ease, making it conveniently create 2-D maps, characters and character dialogue
 
 ## How to Use
 
@@ -69,29 +69,43 @@ print("Enemy's threat:", enemy_threat)
 
 ## Features
 
-- **Create**: Create new variables with specified names and values.
-- **Value**: Retrieve the value of a variable by its name.
-- **Edit**: Modify the value of an existing variable.
-- **Delete**: Remove a variable from the collection.
-- **Return List**: Obtain a list of all variable names currently stored.
+1. **Character Management:**
+   - Create, edit, and delete player characters, enemies, and non-playable characters (NPCs).
+   - Retrieve characters of specific types (e.g., players, enemies).
+
+2. **Dialogue Management:**
+   - Create and manage dialogues for characters.
+   - Retrieve dialogues associated with specific characters and contexts.
+
+3. **Map Management:**
+   - Create and manage 2-D maps for game environments.
+   - Check if coordinates are within the map boundaries.
+   - Access and modify map values at specific coordinates.
+
+4. **Customization:**
+   - Customize dialogue box appearance.
+   - Flexible handling of default dialogue returns for adding custom dialogue starters.
 
 ## Configuration
 
-The `LocystBridge` module provides the following functionalities:
+1. **Character Management Configuration:**
+   - Define custom attributes and behaviors for character types.
+   - Configure default character properties such as health, strength, etc.
 
-- `create(name, value=None)`: Creates a variable with a specified name and value.
-- `value(name)`: Retrieves the value of a variable by its name.
-- `edit(name, new_value)`: Modifies the value of an existing variable.
-- `delete(name)`: Deletes a variable specified by its name.
-- `returnList()`: Returns a list of all variable names currently stored.
+2. **Dialogue Management Configuration:**
+   - Define custom dialogue contexts and categories.
+   - Configure dialogue box appearance and behavior.
+
+3. **Map Management Configuration:**
+   - Customize map dimensions and tile types.
+   - Configure default map values and behaviors.
+
+4. **Global Configuration:**
+   - Configure global settings for the entire library.
+   - Set default values for various parameters and options.
 
 ## To-do
 
 - Enhance error handling and edge case scenarios.
 - Extend functionality to support additional variable operations if required.
 - Improve documentation and examples for better understanding and usability.
-
-## Project Status
-Project is: _in progress_
-
-This library is actively being developed to add more features and improve already built features.
